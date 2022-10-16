@@ -9,8 +9,8 @@ int main(void)
 	float f = 3.4;
 	char c = 'c';
 
-	printf("Size of an int: %lu byte(s)\n", sizeof(s));
-	printf("Size of a float: %lu byte(s)\n",sizeof(f));
-	printf("Size of a char : %lu byte(s)\n",sizeof(c));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(s));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	printf("Size of a char : %lu byte(s)\n", (unsigned long)sizeof(c));
 	return (0);
 }
