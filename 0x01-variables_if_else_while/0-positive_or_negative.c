@@ -10,19 +10,14 @@
 	int main(void)
 {
 	int n;
-	srandtime(time(0));
+	/*srandtime(time(0));*/
 	n = rand()-RAND_MAX/2;
 
 	if (n>0)
-
-
 	printf("%d n is positive\n", n);
-	
 	else if (n<0)
-
 	printf("%d n is negative\n", n);
-
-else
+	else
 	printf("%d n is zero\n", n);
 	return(0);
 }
